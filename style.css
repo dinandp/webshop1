@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Koulen', cursive;
+}
+
+.selector {
+    padding: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    float: left;
+}
+
+.selector a {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.selector a:hover {
+    color: blue;
+}
+
+
+
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 49%;
+}
+
+
+
+
+.nav {
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+}
+
+.nav p {
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.nav a {
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+
+#shoppingcart {
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.main {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 6%;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    text-decoration-line: underline;
+}
+
+.main img {
+    padding-top: 50px;
+}
+
+p {
+    font-size: 20px;
+
+}
+
+.qwerty img {
+    padding-top: 100px;
+}
+
+.qwerty a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    padding-left: 32.5%;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#abar {
+    color: #fff;
+    margin-left: 65px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.jordan1 {
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 100px;
+    text-align: center;
+    text-decoration-line: underline;
+    padding-top: 50px;
+}
+
+
+
+.qwerty {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 29%;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+.one {
+    padding-left: 10%;
+}
+
+.two {
+    padding-left: 10%;
+}
+
+.qwerty:hover {
+    transform: scale(1.10);
+}
+
+.qwerty p {
+    text-decoration-line: underline;
+}
+
+.qwerty a {
+    font-size: 18px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 30px; 
+    padding: 0px 30px;
+    cursor: pointer;
+}
+
+.whitespace {
+    height: 500px;
+    width: 500px;
+}
+
+.product p {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.product img {
+    padding-left: 20%;
+    padding-top: 50px;
+}
+
+/* button van internet */
+select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: #fff;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color:#000;
+    cursor:pointer;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+
+
+ select::-ms-expand {
+    display: none;
+ }
+
+ #optionfont {
+     font-size: 15px;
+     color: #000;
+ }
+
+ .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 4em;
+    line-height: 3;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #000;
+    
+    border: 1px solid #5F5C5C;
+ }
+ .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #fff;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+ .select:hover::after {
+    color: #dfe3e9;
+ }
+/* button van internet */
+
+.choose {
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left: 33%;
+}
+.voegtoe {
+    
+    text-align: center;
+    font-size: 15px;
+    padding-left: 60px;
+    
+}
+
+.voegtoe a {
+    margin: 50px;
+    font-size: 15px;
+}
+
+.voegtoe button {
+    background-color: #000;
+    color: #fff;
+    width: 325px;
+    height: 5em;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+}
+
+.voegtoe  :hover {
+    transition: all .3s ease-in-out;
+    background-color: #5F5C5C;
+    border: #5F5C5C;
+    color: #fff;
+}
+
+
+::-webkit-scrollbar {
+    
+}
+
+
+
+
